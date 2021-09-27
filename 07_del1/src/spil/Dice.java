@@ -1,8 +1,8 @@
 package spil;
 
-public class Main {
+public class Dice {
 
     public static void main(String[] args) {
         // write your code here
     }
-}
+} 
