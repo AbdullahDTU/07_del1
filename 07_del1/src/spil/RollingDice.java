@@ -2,6 +2,7 @@ package spil;
 
 public class RollingDice {
 
+    //laver to terning objekter og kaster dem
     public static void main (String[] args){
 
         Dice die1, die2;
