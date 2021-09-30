@@ -1,5 +1,6 @@
 package spil;
-
+// Creates two Die objects and rolls them
+//
 public class RollingDice {
     private Dice die1, die2;
     private int sum;
@@ -34,7 +35,7 @@ public class RollingDice {
         this.sum = 0;
     }
 
-    //laver to terning objekter og kaster dem
+
     protected void rollTheDice() {
         die1.roll();
         die2.roll();
