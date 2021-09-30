@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfd90b1f-3aee-42a2-9180-4b72aae91f08" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/spil/Main.java.bak" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spil/Dice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spil/Dice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spil/EkstraTur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spil/EkstraTur.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/spil/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spil/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spil/Regl1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spil/Regl1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/spil/RollingDice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spil/RollingDice.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,68 +19,6 @@
   <component name="FavoritesManager">
     <favorites_list name="07_del1" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spil/RollingDice.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
-              <folding>
-                <element signature="e#68#69#0" expanded="true" />
-                <element signature="e#95#96#0" expanded="true" />
-                <element signature="e#133#134#0" expanded="true" />
-                <element signature="e#165#166#0" expanded="true" />
-                <element signature="e#194#195#0" expanded="true" />
-                <element signature="e#221#222#0" expanded="true" />
-                <element signature="e#259#260#0" expanded="true" />
-                <element signature="e#291#292#0" expanded="true" />
-                <element signature="e#318#319#0" expanded="true" />
-                <element signature="e#344#345#0" expanded="true" />
-                <element signature="e#379#380#0" expanded="true" />
-                <element signature="e#409#410#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/spil/Dice.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spil/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="109" column="22" lean-forward="true" selection-start-line="109" selection-start-column="22" selection-end-line="109" selection-end-column="22" />
-              <folding>
-                <element signature="e#178#179#0" expanded="true" />
-                <element signature="e#215#216#0" expanded="true" />
-                <element signature="e#272#273#0" expanded="true" />
-                <element signature="e#324#325#0" expanded="true" />
-                <element signature="e#362#363#0" expanded="true" />
-                <element signature="e#399#400#0" expanded="true" />
-                <element signature="e#456#457#0" expanded="true" />
-                <element signature="e#508#509#0" expanded="true" />
-                <element signature="e#729#730#0" expanded="true" />
-                <element signature="e#763#764#0" expanded="true" />
-                <element signature="e#822#823#0" expanded="true" />
-                <element signature="e#868#869#0" expanded="true" />
-                <element signature="e#905#906#0" expanded="true" />
-                <element signature="e#956#957#0" expanded="true" />
-                <element signature="e#2315#2316#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -92,6 +28,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -143,23 +87,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/spil" />
+    <property name="settings.editor.selected.configurable" value="ide.date.format" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/spil" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -248,6 +181,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/spil/Main.java.bak">

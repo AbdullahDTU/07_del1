@@ -42,7 +42,7 @@ public class RollingDice {
         System.out.println("First die: " + die1 + ", Second die: " + die2);
 
         sum = die1.getFaceValue() + die2.getFaceValue();
-        System.out.println("Sum: " + sum);
+        System.out.println("Sum: " + sum + " bliver lagt til spillerens point");
 
     }
 }

@@ -1,3 +1,4 @@
+/*
 package spil;
 
 public class Regl1 {
@@ -15,3 +16,6 @@ public class Regl1 {
 
 
 }
+
+
+ */

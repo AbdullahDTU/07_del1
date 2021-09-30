@@ -94,7 +94,7 @@ public class Main {
             //If it Player 1's turn, print out the scores and allow Player 1 to roll the dice
             case PLAYER_ONE:
                 System.out.println("Player 1's turn to roll the dice");
-                System.out.println("Player 1 Score: " + getPlayerOneScore() + "\nPlayer 2 Score: " + getPlayerTwoScore());
+                System.out.println("Player 1 Score: " + getPlayerOneScore() + "\nPlayer 2 Score: " + getPlayerTwoScore() + "\n");
 
                 do {
                     userInput = scan.nextLine();
@@ -104,6 +104,13 @@ public class Main {
                 getRollingDice().rollTheDice();
                 setPlayerOneScore(getPlayerOneScore() + getRollingDice().getSum());
                 printSeperator();
+
+                //Checks if Player One has reached 40 points or more and ends the game
+                if (getPlayerOneScore() >= winScore) {
+                    System.out.println("Player 1 har vundet med " + getPlayerOneScore() + " points!");
+                    break;
+                }
+
                 switchCurrentPlayer();
                 this.performDiceRoll();
 
@@ -112,7 +119,7 @@ public class Main {
             //If it Player 2's turn, print out the scores and allow Player 1 to roll the dice
             case PLAYER_TWO:
                 System.out.println("Player 2's turn to roll the dice");
-                System.out.println("Player 1 Score: " + getPlayerOneScore() + "\nPlayer 2 Score: " + getPlayerTwoScore());
+                System.out.println("Player 1 Score: " + getPlayerOneScore() + "\nPlayer 2 Score: " + getPlayerTwoScore() + "\n");
 
                 do {
                     userInput = scan.nextLine();
@@ -122,6 +129,13 @@ public class Main {
                 getRollingDice().rollTheDice();
                 setPlayerTwoScore(getPlayerTwoScore() + getRollingDice().getSum());
                 printSeperator();
+
+                //Checks if Player Two has reached 40 points or more and ends the game
+                if (getPlayerTwoScore() >= winScore) {
+                    System.out.println("Player 2 har vundet med " + getPlayerTwoScore() + " points!");
+                    break;
+                }
+
                 switchCurrentPlayer();
                 this.performDiceRoll();
 

@@ -1,3 +1,4 @@
+/*
 package spil;
 
 public class EkstraTur<die1> {
@@ -17,3 +18,5 @@ public class EkstraTur<die1> {
 }
 // Jeg tænkte man kunne have hele spilleopstillingen klar. Måden man så får en ekstra tur på, er ved at man
 //sammenligner dice1 og dice2. Derfra kan man med "sout" skrive ud til spillerne at de får en ektra tur
+
+ */
